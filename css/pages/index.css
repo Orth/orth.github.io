@@ -1,0 +1,44 @@
+@import url('/kyouyuu/css/style.css');
+@import url('/kyouyuu/css/components/background.css');
+
+body {
+  margin: 0;
+  /* font-family: 'Delicious Handrawn'; */
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  margin: 0;
+  /* font-family: 'Noto Sans Japanese'; */
+  font-family: 'Caveat';
+  font-weight: 200;
+  font-size: 4em;
+  text-shadow: 1px 1px 5px rgba(238, 238, 238, 0.88);
+}
+
+.subtitle {
+  margin: 0;
+  font-family: 'Caveat';
+  /* font-family: 'Noto Sans Japanese'; */
+  font-weight: 200;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 5px rgba(238, 238, 238, 0.88);
+}
+
+.links a {
+  font-size: 1.15em;
+  color: var(--on-background-color);
+  text-shadow: 1px 1px 5px rgba(238, 238, 238, 0.88);
+}
+
+.links a:hover {
+  color: rgba(var(--on-background), 0.5);
+}

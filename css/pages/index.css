@@ -34,7 +34,7 @@ body {
 }
 
 .links a {
-  font-size: 1.15em;
+  font-size: 1.5em;
   color: var(--on-background-color);
   text-shadow: 1px 1px 5px rgba(238, 238, 238, 0.88);
 }
